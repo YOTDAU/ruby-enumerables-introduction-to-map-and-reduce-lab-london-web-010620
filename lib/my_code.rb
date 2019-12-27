@@ -32,8 +32,13 @@ def map_to_double(array)
   return doubled_array
 end
 
-def map_to_square
+def map_to_square(array)
+  i = 0 
+  squared_array = []
   
+  while i < array.length do 
+    squared_array << (array[i] * 2) 
+    i += 1 
 end
 
 def reduce_to_total
