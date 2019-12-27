@@ -44,6 +44,7 @@ def map_to_square(array)
 end
 
 def reduce_to_total
+  
 end
 
 def reduce_to_all_true
