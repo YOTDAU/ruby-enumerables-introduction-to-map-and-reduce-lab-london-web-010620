@@ -10,8 +10,12 @@ def map_to_negativize(array)
   return negative_array
 end
 
-def map_to_no_change
+def map_to_no_change(array)
+  i = 0 
+  no_change_array = []
   
+  while i < array.length do  
+  no_change_array << array[i]
 end
 
 def map_to_double
