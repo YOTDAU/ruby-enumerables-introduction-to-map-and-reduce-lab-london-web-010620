@@ -16,6 +16,7 @@ def map_to_no_change(array)
   
   while i < array.length do  
   no_change_array << array[i]
+  i += 1 
 end
 
 def map_to_double
