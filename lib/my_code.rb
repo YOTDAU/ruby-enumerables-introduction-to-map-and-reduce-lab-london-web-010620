@@ -21,8 +21,15 @@ end
 return no_change_array
 end
 
-def map_to_double
+def map_to_double(array)
+  i = 0 
+  doubled_array = []
   
+  while i < array.length do 
+    doubled_array << (array[i] * 2) 
+    i += 1 
+  end
+  return doubled_array
 end
 
 def map_to_square
